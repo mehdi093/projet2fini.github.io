@@ -1,0 +1,156 @@
+/* information professionelle */
+/* disposition des element */
+
+#block{
+flex-direction: row-reverse;
+} 
+
+/* recommandation partie 3 */
+h3{
+    font-family: arial black;
+    
+    font-size: 15px;
+}
+/* marge */
+/* 1er partie */
+.formation1{
+    margin-left: -17%;   
+}
+.formation2{
+    margin-left: -17%;   
+}
+.paris_formation{
+    margin-left: 45%;
+}
+/* 2eme partie */
+.expercience1{
+    margin-left: -5%;
+}
+.experience2{
+    margin-left: -5%;
+}
+.expercience3{   
+    margin-left: -5%;
+}
+.paris_experience{
+    margin-left: 15%;
+
+}
+/* creation de puce jaune */
+.date ul {
+    list-style-type: none;
+    }
+    .date  ul li:before {
+    content: "\2022";
+    float: left;
+    color:#efd807;
+    margin-left: -21%;
+    }
+/* 3eme partie */
+.recommandation1{
+    margin-left: -15%;
+}
+
+
+
+/* information personnelles */
+/* dimention de la liseré  */
+#liseré{
+ padding: 0 ;    
+}
+/* coordonne */
+
+.ul li{
+ list-style-type: none;
+} 
+/* la personne parle de ses loisir */
+#liseré{
+    background-color: #FFC107;
+}
+img{
+    border-radius: 50% ;
+    border:1px #FFEA00 solid;
+}
+
+.LOISIR{
+ margin-top: 164%; 
+}
+#liseré .border { 
+
+ border-radius: 50%;
+ padding: 1.2em 1.2em 1.2em 1.2em;
+ text-align: center;
+}  
+.margeloisir{
+    margin-bottom: 10%;
+
+}
+
+/* fin de la liseré  */
+/* code pour le resposive */
+@media screen and (max-width: 720px)
+{
+    
+    p{
+        font-size: 10px;
+    }
+
+    
+        
+    /* taille du titre */
+    h2{
+        font-size: 16px;
+
+    }
+    h3{
+        font-size: 13px;        
+    }
+    h4{
+        font-size: 16px;
+
+    }
+    /* marge partie 1 */
+    .formation2{
+        margin-left: -25%;   
+    }
+    .paris_formation{
+        margin-left: 45%;
+    }
+    /* marge partie 2*/
+    .experience2{
+        margin-left: -15%;
+    }
+
+    .expercience3{   
+        margin-left: -15%;
+    }
+    .recadre{
+        margin-left: 20%;
+    }
+    .paris_experience{
+        margin-left: 21%;
+
+    }
+    .date ul {
+        list-style-type: none;
+        }
+        .date  ul li:before {
+        content: "\2022";
+        float: left;
+        color:#efd807;
+        margin-left: -10px;
+        }
+    /* taille texte information personelle */
+    #liseré .ul {
+        font-size:10px;
+    }
+    .date ul {
+        list-style-type: none;
+        }
+        
+    /* supression marge a loisirs */
+    .LOISIR{
+        margin-top: 0%; 
+       }
+      
+}
